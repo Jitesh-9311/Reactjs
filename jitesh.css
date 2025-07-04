@@ -1,0 +1,50 @@
+h1{
+    text-align:center;
+    background-color: dodgerblue(0, 6, 6); 
+    border: none;
+}
+th{
+    background-color: blue;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+}
+.web{
+    text-align: left;
+    background-color: lightblue;
+    
+}
+
+.d{
+    display: flex;
+
+    background-color: cornflowerblue;
+    column-gap: 10px;
+}
+.r{
+    background-color: darkgrey;}
+    h2{
+      text-align: left;  
+    }
+    ul{
+        text-align: left;
+    }
+    img{
+        text-align: left;
+    }
+    th,td{
+        background-color: aliceblue;
+    }
+    p{
+        text-align:left;
+     } 
+    /* h1{
+    border: 1px solid;
+    margin: 10px;
+    background-color: cornflowerblue;
+    } */
+    
+
+
