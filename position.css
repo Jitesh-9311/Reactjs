@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing:border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+/* #car1{
+         height: 30px;
+         width: 40px;
+        background-color: aquamarine;
+        position:absolute;
+        left: 40%;
+}
+#car2{
+         height: 50px;
+         width: 50px;
+        background-color: blue;
+}
+#car3{
+         height: 70px;
+         width: 70px;
+        background-color: brown;
+}
+#car4{
+         height: 90px;
+         width: 90px;
+        background-color: chocolate;
+} */
+/* #parent{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    background-color: brown;
+    
+}
+#child{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    position: absolute;
+    left: 40%;
+} */

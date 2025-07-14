@@ -1,50 +1,94 @@
-h1{
-    text-align:center;
-    background-color: dodgerblue(0, 6, 6); 
-    border: none;
-}
-th{
-    background-color: blue;
-}
+
 body{
     height: 100vh;
     width: 100vw;
-    text-align: center;
 }
 .web{
     text-align: left;
-    background-color: lightblue;
+    background-color: rgb(236, 243, 246);
+    h1{
+        background-color: darkslategray;
+         border: 1px solid black;
+         text-align:center;
+    }
+    th{
+    background-color: chocolate;
+    border: 1px solid black;
+      }
+    td{
+      background-color: darkgray;
+      border: 1px solid black;  
+    }
+    .a{
+            margin: 20px;
+            padding: 1px;
+            width: 750px;
+            height: 550px;
+            border: 2px solid;
+    }
+    .b{
+            margin: 20px;
+            padding: 1px;
+            width: 750px;
+            height: 250px;
+       }
+        .C{
+            margin: 20px;
+            padding: 1px;
+            width: 600px;
+            height: 100px;
+            
+        }
+        
+         .jitesh{
+        height: 160px;
+        width: 200px;
+        background-color: dimgray;
+        transition-duration: 2s;
+       }
+       .jitesh:horizontal{
+            width: 300px;    
+       }
+        .jitesh1{
+        height: 160px;
+        width: 200px;
+        background-color: dodgerblue;
+       }
+       .jitesh2{
+              height: 160px;
+              width: 200px;
+              background-color: fuchsia;
+       }
+         .jitesh3{
+          height: 160px;
+              width: 200px;
+              background-color: forestgreen;
+       }
+       }
+
+             
+      
+
+
+.d{
+    background-color: cadetblue;
+    display:flex;
+    
+}
+.dt{
+    background-color: gray;
+    text-decoration: underline;
+    height: 80px;
+    width: 180px;
+    text-transform: uppercase;
     
 }
 
-.d{
-    display: flex;
 
-    background-color: cornflowerblue;
-    column-gap: 10px;
-}
-.r{
-    background-color: darkgrey;}
-    h2{
-      text-align: left;  
-    }
-    ul{
-        text-align: left;
-    }
-    img{
-        text-align: left;
-    }
-    th,td{
-        background-color: aliceblue;
-    }
-    p{
-        text-align:left;
-     } 
-    /* h1{
-    border: 1px solid;
-    margin: 10px;
-    background-color: cornflowerblue;
-    } */
+
+
+
+    
     
 
 
