@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="day16.css">
+    </head>
+    <body>
+     <div class="container" id="cont">
+        <form id="handleForm">
+            <input id="input" type="text" placeholder="enter your name">
+             <button type="submit"> submit</button>
+        </form>
+     
+     </div>
+       <button  id="alert">alert </button>
+       <!-- <img src="https://static.vecteezy.com/system/resources/thumbnails/040/890/255/small_2x/ai-generated-empty-wooden-table-on-the-natural-background-for-product-display-free-photo.jpg" onload="console.log('Image loaded!')" alt="Example Image" /> -->
+     <script>
+        // const id = document.getElementById("alert")
+        // id.addEventListener("click",function(){
+        //     console.log("hello world")
+        // })
+
+        // const id = document.getElementById("handleForm")
+        // id.addEventListener("submit",function(event){
+        //     event.preventDefault()
+        // console.log("form is submitted")
+        // })
+
+
+        const input = document.getElementById("input")
+        input.addEventListener("blur",function(){
+            window.alert("input is lost the focus")
+        })
+     </script>
+    </body>
+</html>
