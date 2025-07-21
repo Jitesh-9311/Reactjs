@@ -1,0 +1,30 @@
+body{
+
+    background-color: black;
+    
+}
+.main{
+    border: 2px solid white;
+}
+
+h1{
+    /* background-color: aquamarine; */
+    color: white;
+    text-align: center;
+}
+.imgee{
+    text-align: center;
+}
+.imag{
+    text-align: center;
+}
+.buttonn{
+    text-align: center;
+}
+
+.b2{
+    background-color: green;
+}
+.b3{
+    background-color: red;
+}

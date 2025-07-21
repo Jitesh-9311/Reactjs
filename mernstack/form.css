@@ -1,0 +1,14 @@
+
+.d{
+    background-color: cadetblue;
+    display:flex;
+    
+}
+.dt{
+    background-color: gray;
+    text-decoration: underline;
+    height: 80px;
+    width: 180px;
+    text-transform: uppercase;
+    
+}

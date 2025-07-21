@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+    <marquee width="100%" direction="right" height="100px"scrollamount="12"><h1>Project ON/OFF Button</h1></marquee>
+    <div class="main">
+    <div class="imgee">
+    <img src="turnoff.png" id="image1" width="100px" height="150px">
+    </div>
+    <div class="imag">
+    <img src="cat.png" id="image2" width="230px"  height="200px">
+    </div>
+  <script>
+         function cat()
+            {
+                document.getElementById("image2").src="cat.png";
+             document.getElementById("image1").src="turnon.png";
+               
+            }
+        </script>
+        <script> 
+            function bulboff() 
+        {
+        document.getElementById("image2").src="cateye.png";
+         document.getElementById("image1").src="turnoff.png";
+        }
+        </script>
+        <div class="buttonn">
+    
+        <button class="b2" type="button" onclick="cat()">ON</button>
+         <button class="b3" type="button" onclick="bulboff()">OFF</button>
+     </div>
+</div>
+</body>
+</html>  
